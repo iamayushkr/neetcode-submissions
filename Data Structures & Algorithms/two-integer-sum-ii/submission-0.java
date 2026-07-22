@@ -1,0 +1,1 @@
+class Solution{public int[] twoSum(int[]A,int __){int $=-1,O=A.length;for(;;){if(A[++$]+A[--O]==__)return new int[]{$+1,O+1};if(A[$]+A[O]<__)O++;else $--;}}}
