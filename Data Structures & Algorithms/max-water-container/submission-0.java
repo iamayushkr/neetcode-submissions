@@ -1,0 +1,1 @@
+class Solution{public int maxArea(int[]A){int $=0,O=0,__=A.length-1;while(O<__)$=Math.max($,(__-O)*(A[O]<A[__]?A[O++]:A[__--]));return $;}}
