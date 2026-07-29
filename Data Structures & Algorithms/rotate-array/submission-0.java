@@ -1,0 +1,1 @@
+class Solution{public void rotate(int[]A,int K){int Z=A.length;K%=Z;for(int l=0,O=Z-1;l<O;l++,O--){int Q=A[l];A[l]=A[O];A[O]=Q;}for(int l=0,O=K-1;l<O;l++,O--){int Q=A[l];A[l]=A[O];A[O]=Q;}for(int l=K,O=Z-1;l<O;l++,O--){int Q=A[l];A[l]=A[O];A[O]=Q;}}}
